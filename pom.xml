@@ -3,7 +3,7 @@
 
 	<groupId>org.occi.ware.vijava</groupId>
 	<artifactId>occi-ware-vijava</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>occi-ware-vijava</name>
@@ -20,8 +20,8 @@
 		<url>https://github.com/fifiant/vijava</url>
 		<connection>scm:git:https://github.com/fifiant/vijava.git</connection>
 		<developerConnection>scm:git:https://github.com/fifiant/vijava.git</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+	  <tag>occi-ware-vijava-0.0.1</tag>
+  	</scm>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -137,7 +137,7 @@
 	<distributionManagement>
 		<repository>
 			<id>fifiant-github-repo</id>
-			<url>file:////Users/spirals/Documents/workspace/maven_repo/repository</url>
+			<url>file:///Users/spirals/Documents/workspace/maven_repo/repository</url>
 		</repository>
 	</distributionManagement>
 	<repositories>
