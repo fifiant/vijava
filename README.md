@@ -43,3 +43,20 @@ Blog: http://www.doublecloud.org
 
 COPYRIGHT & LICENSE:
 BSD. See the License.txt file for details
+
+Usage
+=====
+
+To use this API just add the following informations
+
+      <repository>
+            <id>fifiant-github-repo</id>
+            <name>fifiant-github-repo repository on GitHub</name>
+            <url>https://github.com/fifiant/maven_repo/raw/master/repository/</url>
+      </repository> 
+        
+      <dependency>
+			<groupId>org.occi.ware.vijava</groupId>
+			<artifactId>occi-ware-vijava</artifactId>
+			<version>0.0.3</version>
+	  </dependency>
