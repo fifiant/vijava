@@ -20,8 +20,8 @@
 		<url>https://github.com/fifiant/vijava</url>
 		<connection>scm:git:https://github.com/fifiant/vijava.git</connection>
 		<developerConnection>scm:git:https://github.com/fifiant/vijava.git</developerConnection>
-		<tag>occi-ware-vijava-0.0.1</tag>
-	</scm>
+	  <tag>occi-ware-vijava-0.0.1</tag>
+  </scm>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -94,7 +94,12 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-release-plugin</artifactId>
-					<version>2.4.2</version>
+					<version>2.5.1</version>
+					<configuration>
+			        <checkModificationExcludes>
+			            <checkModificationExclude>pom.xml</checkModificationExclude>
+			        	</checkModificationExcludes>
+    				</configuration>
 				</plugin>
 				<!--This plugin's configuration is used to store Eclipse m2e settings 
 					only. It has no influence on the Maven build itself. -->
@@ -129,7 +134,12 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-
+	<distributionManagement>
+		<repository>
+			<id>fifiant-github-repo</id>
+			<url>file:////Users/spirals/Documents/workspace/maven_repo/repository</url>
+		</repository>
+	</distributionManagement>
 	<repositories>
 		<!-- OpenNMS Repository -->
 		<repository>
