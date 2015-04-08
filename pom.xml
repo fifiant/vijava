@@ -3,7 +3,7 @@
 
 	<groupId>org.occi.ware.vijava</groupId>
 	<artifactId>occi-ware-vijava</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>occi-ware-vijava</name>
@@ -21,7 +21,7 @@
 		<url>https://github.com/fifiant/vijava</url>
 		<connection>scm:git:https://github.com/fifiant/vijava.git</connection>
 		<developerConnection>scm:git:https://github.com/fifiant/vijava.git</developerConnection>
-	  <tag>occi-ware-vijava-0.0.3</tag>
+	  <tag>HEAD</tag>
   	</scm>
 	<dependencies>
 		<dependency>
